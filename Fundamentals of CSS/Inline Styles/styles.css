@@ -8,16 +8,20 @@ h1{
 
 * {
     border: 1px solid red;
-  }
+}
 
-  .title {
+.title {
     color: teal;
-  }
+}
 
-  .uppercase {
+.uppercase {
     text-transform: uppercase;
-  }
+}
 
-  #article-title{
+#article-title{
     font-family: cursive;
-  }
+}
+
+a[href*='florence'] {
+    color: lightgreen;
+}
