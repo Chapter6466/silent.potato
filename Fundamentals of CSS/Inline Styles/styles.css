@@ -34,4 +34,22 @@ a[href*='seoul'] {
     color: lightpink;
 }
 
- 
+.heading-background{
+    background-color: aqua;
+}
+
+#publish-time{
+    color: gray;
+}
+
+h5 {
+    color: yellow;
+  }
+  
+  .author-class {
+    color: pink;
+  }
+  
+  #author-id {
+    color: cornflowerblue;
+  }
