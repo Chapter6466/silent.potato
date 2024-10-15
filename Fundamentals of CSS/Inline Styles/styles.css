@@ -55,7 +55,7 @@ h5 {
   }
 
   h2.destination {
-    font-family: Tahoma;
+    font-family: 'Courier New', Courier, monospace;
   }
   .description h5{
     color: blueviolet;
@@ -65,16 +65,12 @@ li h4 {
     color: gold;
   }
   
-  h4 {
+h4 {
     color: dodgerblue;
   }
 
-  li,
-  h5 {
+li,
+h5 {
     font-family: monospace;
   }
 
-  li,
-h5 {
-  font-family: monospace;
-}
