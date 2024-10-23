@@ -125,8 +125,10 @@ body {
   * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
 
   .donate {
     visibility: hidden;
+    box-sizing: border-box;
   }
