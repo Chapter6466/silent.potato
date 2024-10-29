@@ -6,6 +6,9 @@ body {
   header {
     background-color: #466995;
     border-bottom: 1px solid #466995;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
   }
   
   ul {
@@ -20,6 +23,8 @@ body {
     font-size: 16px;
     font-weight: 300;
     text-transform: uppercase;
+    display: inline-block;
+    width: 80px;
   }
   
   li:hover {
@@ -79,18 +84,30 @@ body {
     padding: 40px;
     text-align: center;
     width: 100%;
+    position: relative;
+    top: 50px;
   }
   
   .question {
     text-align: center;
+    position: sticky;
+    top: 40px;
+    border: 15px solid #DBE9EE;
+    background-color: white;
+    clear: left;
   }
   
   .answer {
     border: 1px solid #466995;
     margin: 20px;
+    display: inline-block;
   }
   
   .answer:hover {
     background: #C0D6DF;
     color: #FFF;
+  }
+
+  footer {
+    height: 100px;
   }
