@@ -76,6 +76,7 @@ body {
   footer {
     background-color: #DBE9EE;
     text-align: center;
+    height: 100px;
   }
   
   .welcome {
@@ -106,8 +107,4 @@ body {
   .answer:hover {
     background: #C0D6DF;
     color: #FFF;
-  }
-
-  footer {
-    height: 100px;
   }
