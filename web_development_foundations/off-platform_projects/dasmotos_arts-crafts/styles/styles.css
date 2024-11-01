@@ -1,5 +1,5 @@
 h1 {
-    font-family: Helvetica;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 100px;
     font-weight: bold;
     color: khaki;
@@ -10,21 +10,21 @@ h1 {
 
 #brush {
     background-color: mediumspringgreen;
-    font-family: Helvetica;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 32px;
     font-weight: bold;
     color: white;
 }
 
 span {
-    font-family: Helvetica;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: blue;
 }
 
 #frame {
     background-color: lightcoral;
-    font-family: Helvetica;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 32px;
     font-weight: bold;
     color: white;
@@ -32,14 +32,14 @@ span {
 
 #paint {
     background-color: skyblue;
-    font-family: Helvetica;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 32px;
     font-weight: bold;
     color: white;
 }
 
 footer {
-    font-family: Helvetica;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-weight: bold;
     color: white;
