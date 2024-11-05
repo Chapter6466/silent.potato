@@ -51,28 +51,28 @@ body {
   
   /* Roast types */
   .green {
-    background-color: darkseagreen;
+    background-color: #9EB599;
   }
   
   .light {
-    background-color: sienna;
+    background-color: #683C2C;
   }
   
   .city {
-    background-color: saddlebrown;
+    background-color: #4C352D;
   }
   
   .vienna {
-    background-color: brown;
+    background-color: #352926;
   }
   
   .italian {
-    background-color: black;
+    background-color: #141212;
   }
   
   /* Typography */
   h1 {
-    color: #41292C;
+    color: midnightblue;
     font-family: 'Covered By Your Grace', sans-serif;
     font-size: 100px;
     line-height: 76px;
@@ -80,6 +80,7 @@ body {
     position: relative;
     text-align: center;
     top: 20%;
+    background-color: aqua;
   }
   
   h2 {
