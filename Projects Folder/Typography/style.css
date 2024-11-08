@@ -26,6 +26,7 @@ html {
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
     font-family: Verdana, sans-serif;
     font-size: .77rem;
+    font-weight: bold;
   }
   
   .header .logo {
@@ -72,11 +73,13 @@ html {
     border-bottom: 4px solid #ffb78c;
     font-size: 1.44rem;
     letter-spacing: 2px;
+    font-weight: 500;
   }
   
   .banner h1 {
     padding-top: 1.11rem;
     font-size: 11rem;
+    font-weight: 900;
   }
   
   @media only screen and (max-width: 750px) {
