@@ -1,6 +1,11 @@
 html {
     font-size: 18px;
   }
+
+  @font-face {
+    font-family: 'Croissant One';
+    src: url();
+  }
   
   @media only screen and (max-width: 1000px) {
     html {
@@ -13,6 +18,68 @@ html {
       font-size: 14px;
     }
   }
+
+  /*Font Styles*/
+
+  .abril-fatface-regular {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .work-sans {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .work-sans {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .work-sans {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  .work-sans {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .work-sans {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  .work-sans {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: italic;
+  }
+
+  .merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .merriweather-regular-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
   
   /* Header */
   
@@ -74,12 +141,14 @@ html {
     font-size: 1.44rem;
     letter-spacing: 2px;
     font-weight: 500;
+    font-family: 'Work Sans', 'Ariel', sans-serif;
   }
   
   .banner h1 {
     padding-top: 1.11rem;
     font-size: 11rem;
     font-weight: 900;
+    font-family: 'April Fatface', sans-serif;
   }
   
   @media only screen and (max-width: 750px) {
@@ -108,6 +177,8 @@ html {
     padding: 0 25% 4rem 25%;
     background-color: rgb(254, 231, 218);
     color: #4a4a4a;
+    line-height: 1.4;
+    font-weight: 'Work Sans', serif;
   }
   
   .photo {
@@ -129,6 +200,7 @@ html {
   
   .photo .caption {
     font-style: italic;
+    font-family: 'Merriweather', serif;
   }
   
   .photo.first {
@@ -140,6 +212,7 @@ html {
   .journal p {
     padding-bottom: 2.77rem;
     font-size: 1.5rem;
+    line-height: 1.4;
   }
   
   .journal .first-letter {
@@ -148,6 +221,7 @@ html {
     font-family: "Abril Fatface", serif;
     font-size: 7.44rem;
     color: #10b0d8;
+    line-height: 0.87;
   }
   
   .quote {
@@ -159,6 +233,7 @@ html {
     text-align: center;
     font-size: 3.55rem;
     font-weight: 800;
+    line-height: 1.2;
   }
   
   @media only screen and (max-width: 680px) {
@@ -174,6 +249,7 @@ html {
     align-items: center;
     padding: 0 1%;
     background-color: #212121;
+    line-height: 1.5;
   }
   
   footer .image-container {
