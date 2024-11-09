@@ -29,43 +29,8 @@ html {
 .work-sans {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.work-sans {
-  font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.work-sans {
-  font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
-}
-
-.work-sans {
-  font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.work-sans {
-  font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: italic;
-}
-
-.work-sans {
-  font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: italic;
+  font-weight: 400, 500, 800;
+  font-style: normal, italic;
 }
 
 .merriweather-regular {
@@ -79,7 +44,6 @@ html {
   font-weight: 400;
   font-style: italic;
 }
-
 
 /* Header */
 
@@ -260,7 +224,7 @@ footer .content {
   flex-grow: 1;
   font-style: italic;
   color: #9b9b9b;
-  font-family: 'croissant One', merriwearher, serif;
+  font-family: 'croissant One', Merriweather, serif;
 }
 
 footer p {
