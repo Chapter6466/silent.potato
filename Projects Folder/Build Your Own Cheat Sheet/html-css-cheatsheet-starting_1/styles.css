@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+    color: #2F4F4F;
+}
+
+h2 {
+    text-align: center;
+    color: #5F9EA0;
+}
+
+table {
+    width: 650px;
+    border-collapse: collapse;
+    border: 1px solid #000000;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: table;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+}
+
+thead {
+    background-color: #0e7e7e;
+}
+
+tbody {
+    width: auto;
+    border-collapse: collapse;
+    border: 1px solid #000000;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: table-row-group;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+}
+
+thead {
+    background-color: #E0FFFF;
+}
