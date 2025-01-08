@@ -1,4 +1,27 @@
 a {
   color: #466995;
   text-decoration: underline;
+  cursor: pointer;
+}
+
+a:visited {
+  color: #466995;
+}
+
+a:visited.question-link {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #ee8e21;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:active.question-link {
+  color: #DBE9EE;
+}
+
+a:active{
+  color: #DBE9EE;
 }
