@@ -25,3 +25,9 @@ a:active.question-link {
 a:active{
   color: #DBE9EE;
 }
+
+.answer {
+  border: 1px solid #466995;
+  border-radius: 10px;
+  box-shadow: 0px 4px;
+}
